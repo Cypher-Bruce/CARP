@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "CARP_solver.py",
+            "console": "integratedTerminal",
+            "args": [
+                "/mnt/c/Users/Cyphe/Documents/SUSTech Assignment/Term 4/Artificial Intelligence/Project/Project 2/CARP_datasets/egl-e1-A.dat",
+                // "sample.dat",
+                "-t",
+                "60",
+                "-s",
+                "1"
+            ]
+        },
+        {
+            "name": "trial",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "CARP_solver_ref.py",
+            "console": "integratedTerminal",
+            "args": [
+                "sample.dat",
+                "-t",
+                "60",
+                "-s",
+                "0"
+            ]
+        }
+    ]
+}
